@@ -23,8 +23,9 @@ function drawPyramid(height) {
     
      // before drawing, clear the old content
      document.getElementById("pyramid").innerHTML = " ";
-     // for each row....
+    //grab symbol from select menu
      var symbol = document.getElementById("symbol").value
+      // for each row....
      for (var row = 0; row < height; row++) {
 
          // figure out number of bricks and spaces

@@ -9,17 +9,18 @@
     <br>
     <div id = "pyramidContent">
         <div>Brick Symbol:
-        <select id="symbol">
-            <!--check eventlistener addEventListener, button.addEventListener,
-            wwww.w3schools.com/jsref/dom_obj_event.asp-->
-            <option>#</option>
-            <option>@</option>
-            <option>X</option>
-            <option>$</option>
-        </select>
+            <select id="symbol" onchange="determineHeightAndThenDrawPyramid()  ">
+                <!--check eventlistener addEventListener, button.addEventListener,
+                wwww.w3schools.com/jsref/dom_obj_event.asp-->
+                <option value = "#">#</option>
+                <option value = "@">@</option>
+                <option value = "X">X</option>
+                <option value = "$">$</option>
+            </select>
         
-        <label>&nbsp How high?</label>
-        <input type="range" id="height" min = "0" max = "25" oninput = "determineHeightAndThenDrawPyramid()"/>
+            <label>&nbsp How high?</label>
+            <input type="range" id="height" value="10" min = "0" max = "25" oninput = "determineHeightAndThenDrawPyramid()" onchange="pyramidHeight.value = this.value"/>
+            <output id="pyramidHeight">10</output>
         </div>
         <br><br>
 

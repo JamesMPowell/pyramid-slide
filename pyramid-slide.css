@@ -1,22 +1,29 @@
+body,h1,ul,section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 #pyramid{
+    padding:5%;
     line-height: 0;
     font-size: 30px;
-    background-color:whitesmoke;
-    margin-bottom:0px;
-    padding-bottom:0px;
+    background-color:#EEEEEE;
+    background-size:100%; 
 }
+
 #pyramidContent{
     padding:1%;
-    background-color:lightslategray;
+    background-color:#CCCCCC;
     border-style:solid;
-    border-color:#f442f4;
+    border-color:#AA5588;
     display:inline-block;
 }
 h1{
-    background-color:#f442f4;
+    background-color:#aa5588;
     font-family: 'Comic Sans';
+    color:#DCDCDC;
     padding:15px;
-    margin:0px;
+    margin:0 5% 0 5%;
     text-align:center;
 }
 body{
