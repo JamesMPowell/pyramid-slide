@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="pyramid-slide.css">
+</head>
+<body >
+    <h1>Pyramid Slide</h1>
+
+    <br>
+    <div id = "pyramidContent">
+        <div>Brick Symbol:
+        <select id="symbol">
+            <!--check eventlistener addEventListener, button.addEventListener,
+            wwww.w3schools.com/jsref/dom_obj_event.asp-->
+            <option>#</option>
+            <option>@</option>
+            <option>X</option>
+            <option>$</option>
+        </select>
+        
+        <label>&nbsp How high?</label>
+        <input type="range" id="height" min = "0" max = "25" oninput = "determineHeightAndThenDrawPyramid()"/>
+        </div>
+        <br><br>
+
+        <div id="pyramid"></div>
+    </div>
+    <script src="pyramid-slide.js"></script>
+</body>
+</html>

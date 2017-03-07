@@ -1,0 +1,50 @@
+#pyramid{
+    line-height: 0;
+    font-size: 30px;
+    background-color:whitesmoke;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+#pyramidContent{
+    padding:1%;
+    background-color:lightslategray;
+    border-style:solid;
+    border-color:#f442f4;
+    display:inline-block;
+}
+h1{
+    background-color:#f442f4;
+    font-family: 'Comic Sans';
+    padding:15px;
+    margin:0px;
+    text-align:center;
+}
+body{
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
+margin{
+
+}
+padding{
+
+}
+color{
+
+}
+background-color{
+
+}
+border{
+
+}
+border-radius{
+
+}
+font-size{
+
+}
+font-weight{
+
+}
